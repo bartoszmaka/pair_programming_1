@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :genres, only: %i[index show]
+  resources :movies, only: %i[index show]
+
+  namespace :admin do
+    resources :genres, only: %i[create update destroy edit new]
+    resources :movies, only: %i[create update destroy edit new]
+  end
+
+  root to: 'movies#index'
 end

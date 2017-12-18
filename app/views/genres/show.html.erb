@@ -1,0 +1,9 @@
+<p><%= genre.title %></p>
+<% genre.movies.each do |movie| %>
+  <p><%= movie.title %></p>
+  <hr/>
+<% end %>
+
+<% if current_user&.admin? %>
+  <%= link_to 'edit', edit_admin_genre_path(genre) %>
+<% end %>

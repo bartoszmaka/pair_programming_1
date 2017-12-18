@@ -1,0 +1,12 @@
+<%= form_for [:admin, movie] do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+
+  <%= f.label :genres %>
+  <%= f.select :genre_ids, options_for_select(genres.map { |x| [x.title, x.id] }), {}, { multiple: true } %>
+
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,18 @@
+<%= search_form_for q do |f| %>
+  <%= f.label :title_cont %>
+  <%= f.search_field :title_cont %>
+
+  <%# <%= f.label :genre %1> %>
+  <%# <%= f.select :genre, options_for_select(genres.map { |x| [x.title, x.id] }) %1> %>
+
+  <%= f.submit %>
+<% end %>
+
+<table>
+  <th><%= sort_link(q, :title) %></th>
+  <% movies.each do |movie| %>
+    <tr>
+      <td><%= link_to movie.title, movie_path(movie) %></td>
+    </tr>
+  <% end %>
+</table>

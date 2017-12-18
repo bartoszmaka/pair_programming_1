@@ -1,0 +1,6 @@
+<% if current_user&.admin? %>
+  <%= link_to 'new genre', new_admin_genre_path %>
+  <%= link_to 'new movie', new_admin_movie_path %>
+<% end %>
+<%= link_to 'index genres', genres_path %>
+<%= link_to 'index movies', movies_path %>
