@@ -8,13 +8,25 @@ ApplicationMailer	/Users/bartosz/Selleo/first_pair_programming/app/mailers/appli
 ApplicationRecord	/Users/bartosz/Selleo/first_pair_programming/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	language:Ruby
 Channel	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	language:Ruby	module:ApplicationCable
 Connection	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	language:Ruby	module:ApplicationCable
+CreateGenres	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218075150_create_genres.rb	/^class CreateGenres < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
+CreateMovieGenres	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218075219_create_movie_genres.rb	/^class CreateMovieGenres < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
+CreateMovies	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074819_create_movies.rb	/^class CreateMovies < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
 DeviseCreateUsers	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074351_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
 FirstPairProgramming	/Users/bartosz/Selleo/first_pair_programming/config/application.rb	/^module FirstPairProgramming$/;"	m	language:Ruby
+Genre	/Users/bartosz/Selleo/first_pair_programming/app/models/genre.rb	/^class Genre < ApplicationRecord$/;"	c	language:Ruby
+Genre, type: :model	/Users/bartosz/Selleo/first_pair_programming/spec/models/genre_spec.rb	/^RSpec.describe Genre, type: :model do$/;"	d	language:RSpec
+Movie	/Users/bartosz/Selleo/first_pair_programming/app/models/movie.rb	/^class Movie < ApplicationRecord$/;"	c	language:Ruby
+Movie, type: :model	/Users/bartosz/Selleo/first_pair_programming/spec/models/movie_spec.rb	/^RSpec.describe Movie, type: :model do$/;"	d	language:RSpec
+MovieGenre	/Users/bartosz/Selleo/first_pair_programming/app/models/movie_genre.rb	/^class MovieGenre < ApplicationRecord$/;"	c	language:Ruby
+MovieGenre, type: :model	/Users/bartosz/Selleo/first_pair_programming/spec/models/movie_genre_spec.rb	/^RSpec.describe MovieGenre, type: :model do$/;"	d	language:RSpec
 The change you wanted was rejected.	/Users/bartosz/Selleo/first_pair_programming/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h	language:HTML
 The page you were looking for doesn't exist.	/Users/bartosz/Selleo/first_pair_programming/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h	language:HTML
 User	/Users/bartosz/Selleo/first_pair_programming/app/models/user.rb	/^class User < ApplicationRecord$/;"	c	language:Ruby
 User, type: :model	/Users/bartosz/Selleo/first_pair_programming/spec/models/user_spec.rb	/^RSpec.describe User, type: :model do$/;"	d	language:RSpec
 We're sorry, but something went wrong.	/Users/bartosz/Selleo/first_pair_programming/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h	language:HTML
 change	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074351_devise_create_users.rb	/^  def change$/;"	f	language:Ruby	class:DeviseCreateUsers
+change	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074819_create_movies.rb	/^  def change$/;"	f	language:Ruby	class:CreateMovies
+change	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218075150_create_genres.rb	/^  def change$/;"	f	language:Ruby	class:CreateGenres
+change	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218075219_create_movie_genres.rb	/^  def change$/;"	f	language:Ruby	class:CreateMovieGenres
 system!	/Users/bartosz/Selleo/first_pair_programming/bin/setup	/^def system!(*args)$/;"	f	language:Ruby
 system!	/Users/bartosz/Selleo/first_pair_programming/bin/update	/^def system!(*args)$/;"	f	language:Ruby
