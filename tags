@@ -1,0 +1,20 @@
+Application	/Users/bartosz/Selleo/first_pair_programming/config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	module:FirstPairProgramming
+ApplicationCable	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationCable	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationController	/Users/bartosz/Selleo/first_pair_programming/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
+ApplicationHelper	/Users/bartosz/Selleo/first_pair_programming/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	language:Ruby
+ApplicationJob	/Users/bartosz/Selleo/first_pair_programming/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	language:Ruby
+ApplicationMailer	/Users/bartosz/Selleo/first_pair_programming/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	language:Ruby
+ApplicationRecord	/Users/bartosz/Selleo/first_pair_programming/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	language:Ruby
+Channel	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	language:Ruby	module:ApplicationCable
+Connection	/Users/bartosz/Selleo/first_pair_programming/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	language:Ruby	module:ApplicationCable
+DeviseCreateUsers	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074351_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
+FirstPairProgramming	/Users/bartosz/Selleo/first_pair_programming/config/application.rb	/^module FirstPairProgramming$/;"	m	language:Ruby
+The change you wanted was rejected.	/Users/bartosz/Selleo/first_pair_programming/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h	language:HTML
+The page you were looking for doesn't exist.	/Users/bartosz/Selleo/first_pair_programming/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h	language:HTML
+User	/Users/bartosz/Selleo/first_pair_programming/app/models/user.rb	/^class User < ApplicationRecord$/;"	c	language:Ruby
+User, type: :model	/Users/bartosz/Selleo/first_pair_programming/spec/models/user_spec.rb	/^RSpec.describe User, type: :model do$/;"	d	language:RSpec
+We're sorry, but something went wrong.	/Users/bartosz/Selleo/first_pair_programming/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h	language:HTML
+change	/Users/bartosz/Selleo/first_pair_programming/db/migrate/20171218074351_devise_create_users.rb	/^  def change$/;"	f	language:Ruby	class:DeviseCreateUsers
+system!	/Users/bartosz/Selleo/first_pair_programming/bin/setup	/^def system!(*args)$/;"	f	language:Ruby
+system!	/Users/bartosz/Selleo/first_pair_programming/bin/update	/^def system!(*args)$/;"	f	language:Ruby
